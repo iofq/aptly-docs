@@ -1,0 +1,38 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Aptly'
+[params]
+  version = "1.5.0"
+
+[module]
+    [[module.imports]]
+        path = "github.com/imfing/hextra"
+[params.navbar]
+  displayTitle = true
+  displayLogo = true
+  [params.navbar.logo]
+    path = 'images/logo.png'
+
+[params.theme]
+  default = "dark"
+  displayToggle = false
+
+[[menu.main]]
+  name = "Documentation"
+  pageRef = "/docs"
+  weight = 1
+[[menu.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 2
+[[menu.main]]
+  name =  "Search"
+  [[menu.main.params]]
+    type = "search"
+  weight = 4
+[[menu.main]]
+  name = "Github"
+  url =  "https://github.com/aptly-dev/aptly"
+  [[menu.main.params]]
+    icon = "github"
+  weight = 5
