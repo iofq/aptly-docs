@@ -1,21 +1,25 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Aptly'
-[params]
-  version = "1.5.0"
-
 [module]
     [[module.imports]]
         path = "github.com/imfing/hextra"
+
+[params]
+  version = "1.5.0"
 [params.navbar]
   displayTitle = true
   displayLogo = true
+  width = "full"
   [params.navbar.logo]
-    path = 'images/logo.png'
-
+    path = 'images/logo.svg'
+[params.footer]
+  width = "full"
+[params.page]
+width = "full"
 [params.theme]
-  default = "dark"
-  displayToggle = false
+  default = "light"
+  displayToggle = true
 
 [[menu.main]]
   name = "Documentation"

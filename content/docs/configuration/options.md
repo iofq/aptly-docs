@@ -3,8 +3,9 @@ date = '2024-11-19T21:06:33-06:00'
 draft = true
 title = 'Configuration Options'
 +++
+Configuration file is stored in JSON format. Annotated default values can also be found in the repo [here](https://github.com/aptly-dev/aptly/blob/master/debian/aptly.conf).
 
-The following options can be defined in Aptly's json configuration file:
+The following options can be defined in Aptly'json configuration file:
 ### Options:
 | Option    | Description |
 | -------- | ------- |

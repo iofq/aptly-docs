@@ -3,6 +3,7 @@ date = '2024-11-19T00:37:55-06:00'
 draft = false
 linkTitle =  "About"
 title = 'Introduction'
+layout = "docs"
 +++
 ## **What is Aptly?**
 

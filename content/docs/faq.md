@@ -1,9 +1,6 @@
 ---
 date: "2014-08-08T11:17:38Z"
 title: "FAQ"
-menu:
-    doc:
-        weight: 30
 ---
 
 Frequently Asked Questions
